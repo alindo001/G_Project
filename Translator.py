@@ -1,28 +1,43 @@
-translated = int(input("Enter a number 1 through 10 to output the Spanish translation "))
+numbers = {
+          "one": "uno",
+          "two": "dos",
+        "three": "tres",
+         "four": "cuatro",
+         "five": "cinco",
+          "six": "seis",
+        "seven": "siete",
+        "eight": "ocho",
+         "nine": "nueve",
+          "ten": "dies",
 
-while translated != 0:
+}
 
-    if translated == 1:
-        print("Uno")
-    if translated == 2:
-        print("Dos")
-    if translated == 3:
-        print("Tres")
-    if translated == 4:
-        print("Cuatro")
-    if translated == 5:
-        print("Cinco")
-    if translated == 6:
-        print("Seis")
-    if translated == 7:
-        print("Siete")
-    if translated == 8:
-        print("Ocho")
-    if translated == 9:
-        print("Nueve")
-    if translated == 10:
-        print("Dies")
-    if translated > 10:
-        print("Please Enter a number 1 through 10")
 
-    translated = int(input("Enter a number 1 through to output the Spanish translation "))
+
+translated = (input("Enter a number 1 through 10 to output the Spanish translation or type exit to end the program >>>"))
+
+while translated != "exit":
+
+    if translated == "one" :
+        print(numbers[translated])
+    if translated == "two":
+        print(numbers[translated])
+    if translated == "three":
+        print(numbers[translated])
+    if translated == "four":
+        print(numbers[translated])
+    if translated == "five":
+        print(numbers[translated])
+    if translated == "six":
+        print(numbers[translated])
+    if translated == "seven":
+        print(numbers[translated])
+    if translated == "eight":
+        print(numbers[translated])
+    if translated == "nine":
+        print(numbers[translated])
+    if translated == "ten":
+        print(numbers[translated])
+
+
+    translated = (input("Enter a number 1 through 10 to output the Spanish translation "))
