@@ -18,7 +18,8 @@ translated = (input("Enter a number 1 through 10 to output the Spanish translati
 
 while translated != "exit":
 
-    if translated == "one" :
+
+    if translated == "one":
         print(numbers[translated])
     if translated == "two":
         print(numbers[translated])
