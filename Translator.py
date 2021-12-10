@@ -14,31 +14,31 @@ numbers = {
 
 
 
-translated = (input("Enter a number 1 through 10 to output the Spanish translation or type exit to end the program >>>"))
+user_input = (input("Enter a number 1 through 10 to output the Spanish translation or type exit to end the program >>>"))
 
-while translated != "exit":
-
-
-    if translated == "one":
-        print(numbers[translated])
-    if translated == "two":
-        print(numbers[translated])
-    if translated == "three":
-        print(numbers[translated])
-    if translated == "four":
-        print(numbers[translated])
-    if translated == "five":
-        print(numbers[translated])
-    if translated == "six":
-        print(numbers[translated])
-    if translated == "seven":
-        print(numbers[translated])
-    if translated == "eight":
-        print(numbers[translated])
-    if translated == "nine":
-        print(numbers[translated])
-    if translated == "ten":
-        print(numbers[translated])
+while user_input != "exit":
 
 
-    translated = (input("Enter a number 1 through 10 to output the Spanish translation "))
+    if user_input == "one":
+        print(numbers[user_input])
+    if user_input == "two":
+        print(numbers[user_input])
+    if user_input == "three":
+        print(numbers[user_input])
+    if user_input == "four":
+        print(numbers[user_input])
+    if user_input == "five":
+        print(numbers[user_input])
+    if user_input == "six":
+        print(numbers[user_input])
+    if user_input == "seven":
+        print(numbers[user_input])
+    if user_input == "eight":
+        print(numbers[user_input])
+    if user_input == "nine":
+        print(numbers[user_input])
+    if user_input == "ten":
+        print(numbers[user_input])
+
+
+    user_input = (input("Enter a number 1 through 10 to output the Spanish translation "))
