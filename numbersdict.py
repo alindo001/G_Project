@@ -20,6 +20,9 @@ numbersdict = {
     "eighteen": "diesiocho",
     "nineteen": "diecinueve",
     "twenty": "veinte",
+    "thirty": "treinta",
+    "forty": "cuarenta",
+    "fifty": "cincuenta"
 
 
 }
