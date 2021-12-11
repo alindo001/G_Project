@@ -3,7 +3,7 @@ from greaterthan20 import *
 
 
 
-user_input = (input("Enter a number 1 through 20 to output the Spanish translation or type exit to end the program >>>"))
+user_input = (input("Enter a number 1 through 30 to output the Spanish translation or type exit to end the program >>>"))
 
 while user_input != "exit":
 
@@ -13,4 +13,4 @@ while user_input != "exit":
         twenty(user_input)
 
 
-    user_input = (input("Enter a number 1 through 20 to output the Spanish translation "))
+    user_input = (input("Enter a number 1 through 30 to output the Spanish translation "))
