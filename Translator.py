@@ -13,10 +13,4 @@ while user_input != "exit":
         twenty(user_input)
 
 
-
-
-
-
-
-
     user_input = (input("Enter a number 1 through 20 to output the Spanish translation "))
